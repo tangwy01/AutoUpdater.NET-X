@@ -11,6 +11,8 @@
     <Product>研发提效工具</Product>
     <Description>研发提效工具</Description>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>Setup</AssemblyName>
+    <RootNamespace>Setup</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
