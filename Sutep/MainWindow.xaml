@@ -1,0 +1,13 @@
+﻿<Window x:Class="Sutep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sutep"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="183" Width="426">
+    <Grid Margin="0,0,10,0" Height="109">
+        <Label Content="正在检查更新......" HorizontalAlignment="Left" Margin="154,34,0,0" VerticalAlignment="Top" Height="44" Width="104"/>
+
+    </Grid>
+</Window>
