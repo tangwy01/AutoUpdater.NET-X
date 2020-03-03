@@ -4,6 +4,13 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sutep.snk</AssemblyOriginatorKeyFile>
+    <Company>Mysoft</Company>
+    <Authors>Mysoft</Authors>
+    <Product>研发提效工具</Product>
+    <Description>研发提效工具</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>

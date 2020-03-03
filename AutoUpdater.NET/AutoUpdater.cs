@@ -315,7 +315,6 @@ namespace AutoUpdaterDotNET
 
                             Running = false;
                         };
-                        //Assembly testDll = Assembly.LoadFile(Environment.CurrentDirectory + "\\MyEDT.WB.Tray.dll");
                         backgroundWorker.RunWorkerAsync(assembly);
                     }
                 }
