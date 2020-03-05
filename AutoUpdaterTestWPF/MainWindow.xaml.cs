@@ -17,16 +17,16 @@ namespace AutoUpdaterTestWPF
         {
             InitializeComponent();
             Assembly assembly = Assembly.GetEntryAssembly();
-            LabelVersion.Content = $"Current Version : {assembly.GetName().Version}";
+            //LabelVersion.Content = $"Current Version : {assembly.GetName().Version}";
             Thread.CurrentThread.CurrentCulture =
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture("fr");
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture("zh-cn");
             AutoUpdater.LetUserSelectRemindLater = true;
             AutoUpdater.RemindLaterTimeSpan = RemindLaterFormat.Minutes;
             AutoUpdater.RemindLaterAt = 1;
             AutoUpdater.ReportErrors = true;
-            AutoUpdater.ShowSkipButton=true;
+            AutoUpdater.ShowSkipButton=false;
             AutoUpdater.ShowRemindLaterButton=true;
-            DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromMinutes(2) };
+            DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(10) };
             timer.Tick += delegate { AutoUpdater.Start("http://rbsoft.org/updates/AutoUpdaterTestWPF.xml"); };
             timer.Start();
         }

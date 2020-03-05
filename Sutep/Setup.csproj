@@ -8,12 +8,22 @@
     <AssemblyOriginatorKeyFile>sutep.snk</AssemblyOriginatorKeyFile>
     <Company>Mysoft</Company>
     <Authors>Mysoft</Authors>
-    <Product>研发提效工具</Product>
-    <Description>研发提效工具</Description>
+    <Product>明源研发提效工具</Product>
+    <Description>明源研发提效工具</Description>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyName>Setup</AssemblyName>
     <RootNamespace>Setup</RootNamespace>
+    <Copyright>Mysoft</Copyright>
+    <ApplicationIcon>32×32.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="32×32.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="32×32.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />

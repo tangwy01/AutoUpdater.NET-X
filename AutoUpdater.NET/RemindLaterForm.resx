@@ -112,23 +112,23 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBoxIcon.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBoxIcon.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
@@ -145,7 +145,7 @@
     <value>pictureBoxIcon</value>
   </data>
   <data name="&gt;&gt;pictureBoxIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBoxIcon.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -175,13 +175,13 @@
     <value>4</value>
   </data>
   <data name="radioButtonNo.Text" xml:space="preserve">
-    <value>No, download updates now (recommended)</value>
+    <value>不，现在就下载更新（推荐）</value>
   </data>
   <data name="&gt;&gt;radioButtonNo.Name" xml:space="preserve">
     <value>radioButtonNo</value>
   </data>
   <data name="&gt;&gt;radioButtonNo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radioButtonNo.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -193,28 +193,28 @@
     <value>Bottom</value>
   </data>
   <data name="comboBoxRemindLater.Items" xml:space="preserve">
-    <value>After 30 minutes</value>
+    <value>30 分钟后</value>
   </data>
   <data name="comboBoxRemindLater.Items1" xml:space="preserve">
-    <value>After 12 hours</value>
+    <value>12 小时后</value>
   </data>
   <data name="comboBoxRemindLater.Items2" xml:space="preserve">
-    <value>After 1 day</value>
+    <value>1 天后</value>
   </data>
   <data name="comboBoxRemindLater.Items3" xml:space="preserve">
-    <value>After 2 days</value>
+    <value>2 天后</value>
   </data>
   <data name="comboBoxRemindLater.Items4" xml:space="preserve">
-    <value>After 4 days</value>
+    <value>4 天后</value>
   </data>
   <data name="comboBoxRemindLater.Items5" xml:space="preserve">
-    <value>After 8 days</value>
+    <value>8 天后</value>
   </data>
   <data name="comboBoxRemindLater.Items6" xml:space="preserve">
-    <value>After 10 days</value>
+    <value>10 天后</value>
   </data>
   <data name="comboBoxRemindLater.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 102</value>
+    <value>375, 105</value>
   </data>
   <data name="comboBoxRemindLater.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 3, 10, 3</value>
@@ -229,7 +229,7 @@
     <value>comboBoxRemindLater</value>
   </data>
   <data name="&gt;&gt;comboBoxRemindLater.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBoxRemindLater.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -259,13 +259,13 @@
     <value>3</value>
   </data>
   <data name="radioButtonYes.Text" xml:space="preserve">
-    <value>Yes, please remind me later : </value>
+    <value>是的，请以后提醒我</value>
   </data>
   <data name="&gt;&gt;radioButtonYes.Name" xml:space="preserve">
     <value>radioButtonYes</value>
   </data>
   <data name="&gt;&gt;radioButtonYes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radioButtonYes.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -283,23 +283,22 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 51</value>
+    <value>88, 66</value>
   </data>
   <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 45</value>
+    <value>409, 30</value>
   </data>
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="labelDescription.Text" xml:space="preserve">
-    <value>You should download updates now. This only takes few minutes depending on your internet connection and ensures you have latest version of the application.
-</value>
+    <value>您应该现在就下载更新。一般只需要花费几分钟（具体时间视您的网络状况而定）就能确保您的程序最新。</value>
   </data>
   <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
     <value>labelDescription</value>
   </data>
   <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -323,7 +322,7 @@
     <value>6</value>
   </data>
   <data name="buttonOK.Text" xml:space="preserve">
-    <value>OK</value>
+    <value>确定</value>
   </data>
   <data name="buttonOK.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -335,7 +334,7 @@
     <value>buttonOK</value>
   </data>
   <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -362,7 +361,7 @@
     <value>tableLayoutPanel</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -389,13 +388,13 @@
     <value>0</value>
   </data>
   <data name="labelTitle.Text" xml:space="preserve">
-    <value>Do you want to download updates later?</value>
+    <value>您希望以后再下载更新么？</value>
   </data>
   <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
     <value>labelTitle</value>
   </data>
   <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
     <value>tableLayoutPanel</value>
@@ -403,7 +402,7 @@
   <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -422,12 +421,12 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Remind me later for update</value>
+    <value>提醒我以后更新</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>RemindLaterForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

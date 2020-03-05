@@ -133,7 +133,8 @@ namespace AutoUpdaterDotNET
 
                 //TODO:
                 //写程序版本
-                string appPath = System.IO.Directory.GetParent(System.Environment.CurrentDirectory).FullName;
+                string executablePathFile = Process.GetCurrentProcess().MainModule.FileName;
+                string appPath = System.IO.Directory.GetParent(Path.GetDirectoryName(executablePathFile)).FullName;
 
                 string configPath = appPath + "//version.json";
                 string verString = File.ReadAllText(configPath);
@@ -143,7 +144,6 @@ namespace AutoUpdaterDotNET
                 File.WriteAllText(configPath, jobject.ToString());
 
                 string extractionRunPath = appPath + "//" + this._args.CurrentVersion.ToString() + "//"+Path.GetFileName(Process.GetCurrentProcess().MainModule.FileName);
-
 
                 var processStartInfo = new ProcessStartInfo
                 {
@@ -159,8 +159,9 @@ namespace AutoUpdaterDotNET
 
                     File.WriteAllBytes(installerPath, Resources.ZipExtractor);
 
-                    string executablePath = Process.GetCurrentProcess().MainModule.FileName;
-                    string extractionPath = Path.GetDirectoryName(executablePath);
+                    //string executablePath = Process.GetCurrentProcess().MainModule.FileName;
+                    //string extractionPath = Path.GetDirectoryName(executablePathFile);
+                    string extractionPath = Directory.GetParent(Path.GetDirectoryName(executablePathFile)).FullName;
 
                     if (!string.IsNullOrEmpty(AutoUpdater.InstallationPath) &&
                         Directory.Exists(AutoUpdater.InstallationPath))

@@ -112,16 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="webBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 120</value>
   </data>
@@ -134,7 +134,7 @@
   <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
     <value>538, 432</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -142,7 +142,7 @@
     <value>webBrowser</value>
   </data>
   <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
     <value>$this</value>
@@ -163,19 +163,19 @@
     <value>550, 0</value>
   </data>
   <data name="labelUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 19</value>
+    <value>144, 19</value>
   </data>
   <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="labelUpdate.Text" xml:space="preserve">
-    <value>A new version of {0} is available!</value>
+    <value>新版本 {0}  现在可用</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Name" xml:space="preserve">
     <value>labelUpdate</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -196,19 +196,19 @@
     <value>550, 0</value>
   </data>
   <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 15</value>
+    <value>396, 15</value>
   </data>
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="labelDescription.Text" xml:space="preserve">
-    <value>{0} {1} is now available. You have version {2} installed. Would you like to download it now?</value>
+    <value>{0} {1} 现在可用。您安装的版本是 {2}。你现在要下载这个新版本吗？</value>
   </data>
   <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
     <value>labelDescription</value>
   </data>
   <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -226,19 +226,19 @@
     <value>91, 90</value>
   </data>
   <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 17</value>
+    <value>80, 17</value>
   </data>
   <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="labelReleaseNotes.Text" xml:space="preserve">
-    <value>Release Notes:</value>
+    <value>发行说明:</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
     <value>labelReleaseNotes</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
     <value>$this</value>
@@ -265,7 +265,7 @@
     <value>2</value>
   </data>
   <data name="buttonUpdate.Text" xml:space="preserve">
-    <value>Update</value>
+    <value>更新</value>
   </data>
   <data name="buttonUpdate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -277,7 +277,7 @@
     <value>buttonUpdate</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -304,7 +304,7 @@
     <value>3</value>
   </data>
   <data name="buttonRemindLater.Text" xml:space="preserve">
-    <value>Remind me later</value>
+    <value>以后再提醒更新</value>
   </data>
   <data name="buttonRemindLater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -316,7 +316,7 @@
     <value>buttonRemindLater</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.Parent" xml:space="preserve">
     <value>$this</value>
@@ -340,7 +340,7 @@
     <value>pictureBoxIcon</value>
   </data>
   <data name="&gt;&gt;pictureBoxIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBoxIcon.Parent" xml:space="preserve">
     <value>$this</value>
@@ -367,7 +367,7 @@
     <value>1</value>
   </data>
   <data name="buttonSkip.Text" xml:space="preserve">
-    <value>Skip this version</value>
+    <value>忽略这个版本</value>
   </data>
   <data name="buttonSkip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -379,7 +379,7 @@
     <value>buttonSkip</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -387,7 +387,7 @@
   <data name="&gt;&gt;buttonSkip.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -944,12 +944,12 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>{0} {1} is available!</value>
+    <value>{0} {1} 现在可用</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>UpdateForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

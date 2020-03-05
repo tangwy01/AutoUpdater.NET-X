@@ -386,6 +386,8 @@
     <None Include="Resources\ZipExtractor.exe" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\title.ico" />
+    <Content Include="Resources\update-cat.png" />
     <Content Include="Resources\update.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
